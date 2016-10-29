@@ -1,5 +1,5 @@
 # 用到的算法 快速幂
-# 利用位运算实现快速求某个数的多少次幂
+# 利用10进制的快速幂求某个数的多少次幂
 class Solution(object):
     def superPow(self, a, b):
         ans, pow = 1 ,a
