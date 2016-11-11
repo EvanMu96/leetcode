@@ -18,3 +18,4 @@ public:
         return false;
     }
 };
+/*前序遍历两棵树*/
