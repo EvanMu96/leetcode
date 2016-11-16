@@ -21,15 +21,13 @@ class Solution {
 public:
 
     int maxDepth(TreeNode* root) {
-      if (root!) return 0;
+      if (!root) return 0;
       int leftDepth = 1;
       int rightDepth = 1;
       leftDepth += maxDepth(root->left);
       rightDepth += maxDepth(root->right);
-      if (leftDepth > rightDepth)
-        return leftDepth;
-      else
-        return rightDepth;
+
+      return left>right?left:right;
     }
 
 };
