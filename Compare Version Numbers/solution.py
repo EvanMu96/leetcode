@@ -12,6 +12,7 @@ class Solution:
         for x in range(lenMax):
             v1Token = 0
             if x < len1:
+                # 将字符串有string分割为若干个string组成的list，记得要将string转换为interger
                 v1Token = int(v1list[x])
             v2Token = 0
             if x < len2:
